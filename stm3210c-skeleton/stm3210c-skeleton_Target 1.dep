@@ -1,0 +1,337 @@
+Dependencies for Project 'stm3210c-skeleton', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Firmware\STM32F10x.s)(0x4DAC6354)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F10x--list .\stm32f10x.lst --xref -o .\bin\stm32f10x.o --depend .\bin\stm32f10x.d)
+F (.\Firmware\system_stm32f10x_cl.c)(0x4DC03576)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O1 --apcs=interwork -I. -IFirmware -IFirmware\inc -IFreeRTOS\inc-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F10x-o .\bin\system_stm32f10x_cl.o --omf_browse .\bin\system_stm32f10x_cl.crf --depend .\bin\system_stm32f10x_cl.d)
+I (Firmware\stm32f10x.h)(0x53736A2F)
+I (Firmware\core_cm3.h)(0x4CBC9B70)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FE34EE)
+I (Firmware\system_stm32f10x.h)(0x4CBC9B70)
+F (.\Firmware\src\stm32f10x_gpio.c)(0x53736A42)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O1 --apcs=interwork -I. -IFirmware -IFirmware\inc -IFreeRTOS\inc-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F10x-o .\bin\stm32f10x_gpio.o --omf_browse .\bin\stm32f10x_gpio.crf --depend .\bin\stm32f10x_gpio.d)
+I (Firmware\inc\stm32f10x_gpio.h)(0x4CBC9B74)
+I (Firmware\stm32f10x.h)(0x53736A2F)
+I (Firmware\core_cm3.h)(0x4CBC9B70)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FE34EE)
+I (Firmware\system_stm32f10x.h)(0x4CBC9B70)
+I (Firmware\inc\stm32f10x_rcc.h)(0x4CBC9B74)
+I (Firmware\stm32f10x_conf.h)(0x4CBCBDEC)
+I (Firmware\inc\stm32f10x_exti.h)(0x4CBC9B74)
+I (Firmware\inc\stm32f10x_flash.h)(0x4CBC9B74)
+I (Firmware\inc\stm32f10x_usart.h)(0x4CBC9B74)
+I (Firmware\inc\stm32f10x_wwdg.h)(0x4CBC9B74)
+I (Firmware\inc\misc.h)(0x4CBC9B74)
+F (.\Firmware\src\stm32f10x_rcc.c)(0x53736A2F)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O1 --apcs=interwork -I. -IFirmware -IFirmware\inc -IFreeRTOS\inc-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F10x-o .\bin\stm32f10x_rcc.o --omf_browse .\bin\stm32f10x_rcc.crf --depend .\bin\stm32f10x_rcc.d)
+I (Firmware\inc\stm32f10x_rcc.h)(0x4CBC9B74)
+I (Firmware\stm32f10x.h)(0x53736A2F)
+I (Firmware\core_cm3.h)(0x4CBC9B70)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FE34EE)
+I (Firmware\system_stm32f10x.h)(0x4CBC9B70)
+I (Firmware\stm32f10x_conf.h)(0x4CBCBDEC)
+I (Firmware\inc\stm32f10x_exti.h)(0x4CBC9B74)
+I (Firmware\inc\stm32f10x_flash.h)(0x4CBC9B74)
+I (Firmware\inc\stm32f10x_gpio.h)(0x4CBC9B74)
+I (Firmware\inc\stm32f10x_usart.h)(0x4CBC9B74)
+I (Firmware\inc\stm32f10x_wwdg.h)(0x4CBC9B74)
+I (Firmware\inc\misc.h)(0x4CBC9B74)
+F (.\Firmware\stm3210c_eval_ioe.c)(0x4DC041AC)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O1 --apcs=interwork -I. -IFirmware -IFirmware\inc -IFreeRTOS\inc-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F10x-o .\bin\stm3210c_eval_ioe.o --omf_browse .\bin\stm3210c_eval_ioe.crf --depend .\bin\stm3210c_eval_ioe.d)
+I (Firmware\stm3210c_eval_ioe.h)(0x4A407684)
+I (Firmware\stm32f10x.h)(0x53736A2F)
+I (Firmware\core_cm3.h)(0x4CBC9B70)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FE34EE)
+I (Firmware\system_stm32f10x.h)(0x4CBC9B70)
+I (Firmware\inc\stm32f10x_i2c.h)(0x4CBC9B74)
+I (Firmware\inc\stm32f10x_gpio.h)(0x4CBC9B74)
+I (Firmware\inc\stm32f10x_rcc.h)(0x4CBC9B74)
+I (Firmware\inc\stm32f10x_exti.h)(0x4CBC9B74)
+I (Firmware\inc\misc.h)(0x4CBC9B74)
+F (.\Firmware\src\stm32f10x_i2c.c)(0x53736A64)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O1 --apcs=interwork -I. -IFirmware -IFirmware\inc -IFreeRTOS\inc-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F10x-o .\bin\stm32f10x_i2c.o --omf_browse .\bin\stm32f10x_i2c.crf --depend .\bin\stm32f10x_i2c.d)
+I (Firmware\inc\stm32f10x_i2c.h)(0x4CBC9B74)
+I (Firmware\stm32f10x.h)(0x53736A2F)
+I (Firmware\core_cm3.h)(0x4CBC9B70)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FE34EE)
+I (Firmware\system_stm32f10x.h)(0x4CBC9B70)
+I (Firmware\inc\stm32f10x_rcc.h)(0x4CBC9B74)
+I (Firmware\stm32f10x_conf.h)(0x4CBCBDEC)
+I (Firmware\inc\stm32f10x_exti.h)(0x4CBC9B74)
+I (Firmware\inc\stm32f10x_flash.h)(0x4CBC9B74)
+I (Firmware\inc\stm32f10x_gpio.h)(0x4CBC9B74)
+I (Firmware\inc\stm32f10x_usart.h)(0x4CBC9B74)
+I (Firmware\inc\stm32f10x_wwdg.h)(0x4CBC9B74)
+I (Firmware\inc\misc.h)(0x4CBC9B74)
+F (.\Firmware\src\stm32f10x_exti.c)(0x53736A64)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O1 --apcs=interwork -I. -IFirmware -IFirmware\inc -IFreeRTOS\inc-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F10x-o .\bin\stm32f10x_exti.o --omf_browse .\bin\stm32f10x_exti.crf --depend .\bin\stm32f10x_exti.d)
+I (Firmware\inc\stm32f10x_exti.h)(0x4CBC9B74)
+I (Firmware\stm32f10x.h)(0x53736A2F)
+I (Firmware\core_cm3.h)(0x4CBC9B70)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FE34EE)
+I (Firmware\system_stm32f10x.h)(0x4CBC9B70)
+I (Firmware\stm32f10x_conf.h)(0x4CBCBDEC)
+I (Firmware\inc\stm32f10x_flash.h)(0x4CBC9B74)
+I (Firmware\inc\stm32f10x_gpio.h)(0x4CBC9B74)
+I (Firmware\inc\stm32f10x_rcc.h)(0x4CBC9B74)
+I (Firmware\inc\stm32f10x_usart.h)(0x4CBC9B74)
+I (Firmware\inc\stm32f10x_wwdg.h)(0x4CBC9B74)
+I (Firmware\inc\misc.h)(0x4CBC9B74)
+F (.\Firmware\src\misc.c)(0x53736A70)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O1 --apcs=interwork -I. -IFirmware -IFirmware\inc -IFreeRTOS\inc-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F10x-o .\bin\misc.o --omf_browse .\bin\misc.crf --depend .\bin\misc.d)
+I (Firmware\inc\misc.h)(0x4CBC9B74)
+I (Firmware\stm32f10x.h)(0x53736A2F)
+I (Firmware\core_cm3.h)(0x4CBC9B70)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FE34EE)
+I (Firmware\system_stm32f10x.h)(0x4CBC9B70)
+I (Firmware\stm32f10x_conf.h)(0x4CBCBDEC)
+I (Firmware\inc\stm32f10x_exti.h)(0x4CBC9B74)
+I (Firmware\inc\stm32f10x_flash.h)(0x4CBC9B74)
+I (Firmware\inc\stm32f10x_gpio.h)(0x4CBC9B74)
+I (Firmware\inc\stm32f10x_rcc.h)(0x4CBC9B74)
+I (Firmware\inc\stm32f10x_usart.h)(0x4CBC9B74)
+I (Firmware\inc\stm32f10x_wwdg.h)(0x4CBC9B74)
+F (.\Firmware\system_stm32f10x_cl.h)(0x4C811244)()
+F (.\STM32F10xFWLib\src\stm32f10x_lib.c)(0x53736A64)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O1 --apcs=interwork -I. -IFirmware -IFirmware\inc -IFreeRTOS\inc-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F10x-o .\bin\stm32f10x_lib.o --omf_browse .\bin\stm32f10x_lib.crf --depend .\bin\stm32f10x_lib.d)
+I (Firmware\inc\stm32f10x_lib.h)(0x53469745)
+I (Firmware\stm32f10x.h)(0x53736A2F)
+I (Firmware\core_cm3.h)(0x4CBC9B70)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FE34EE)
+I (Firmware\system_stm32f10x.h)(0x4CBC9B70)
+I (Firmware\stm32f10x_conf.h)(0x4CBCBDEC)
+I (Firmware\inc\stm32f10x_exti.h)(0x4CBC9B74)
+I (Firmware\inc\stm32f10x_flash.h)(0x4CBC9B74)
+I (Firmware\inc\stm32f10x_gpio.h)(0x4CBC9B74)
+I (Firmware\inc\stm32f10x_rcc.h)(0x4CBC9B74)
+I (Firmware\inc\stm32f10x_usart.h)(0x4CBC9B74)
+I (Firmware\inc\stm32f10x_wwdg.h)(0x4CBC9B74)
+I (Firmware\inc\misc.h)(0x4CBC9B74)
+F (.\Firmware\src\stm32f10x_usart.c)(0x53736A64)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O1 --apcs=interwork -I. -IFirmware -IFirmware\inc -IFreeRTOS\inc-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F10x-o .\bin\stm32f10x_usart.o --omf_browse .\bin\stm32f10x_usart.crf --depend .\bin\stm32f10x_usart.d)
+I (Firmware\inc\stm32f10x_usart.h)(0x4CBC9B74)
+I (Firmware\stm32f10x.h)(0x53736A2F)
+I (Firmware\core_cm3.h)(0x4CBC9B70)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FE34EE)
+I (Firmware\system_stm32f10x.h)(0x4CBC9B70)
+I (Firmware\inc\stm32f10x_rcc.h)(0x4CBC9B74)
+I (Firmware\stm32f10x_conf.h)(0x4CBCBDEC)
+I (Firmware\inc\stm32f10x_exti.h)(0x4CBC9B74)
+I (Firmware\inc\stm32f10x_flash.h)(0x4CBC9B74)
+I (Firmware\inc\stm32f10x_gpio.h)(0x4CBC9B74)
+I (Firmware\inc\stm32f10x_wwdg.h)(0x4CBC9B74)
+I (Firmware\inc\misc.h)(0x4CBC9B74)
+F (.\Firmware\src\stm32f10x_flash.c)(0x53736A65)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O1 --apcs=interwork -I. -IFirmware -IFirmware\inc -IFreeRTOS\inc-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F10x-o .\bin\stm32f10x_flash.o --omf_browse .\bin\stm32f10x_flash.crf --depend .\bin\stm32f10x_flash.d)
+I (Firmware\inc\stm32f10x_flash.h)(0x4CBC9B74)
+I (Firmware\stm32f10x.h)(0x53736A2F)
+I (Firmware\core_cm3.h)(0x4CBC9B70)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FE34EE)
+I (Firmware\system_stm32f10x.h)(0x4CBC9B70)
+I (Firmware\stm32f10x_conf.h)(0x4CBCBDEC)
+I (Firmware\inc\stm32f10x_exti.h)(0x4CBC9B74)
+I (Firmware\inc\stm32f10x_gpio.h)(0x4CBC9B74)
+I (Firmware\inc\stm32f10x_rcc.h)(0x4CBC9B74)
+I (Firmware\inc\stm32f10x_usart.h)(0x4CBC9B74)
+I (Firmware\inc\stm32f10x_wwdg.h)(0x4CBC9B74)
+I (Firmware\inc\misc.h)(0x4CBC9B74)
+F (.\Firmware\stm3210c_eval_lcd.c)(0x5373A36C)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O1 --apcs=interwork -I. -IFirmware -IFirmware\inc -IFreeRTOS\inc-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F10x-o .\bin\stm3210c_eval_lcd.o --omf_browse .\bin\stm3210c_eval_lcd.crf --depend .\bin\stm3210c_eval_lcd.d)
+I (Firmware\stm3210c_eval_lcd.h)(0x53738D9B)
+I (Firmware\stm32f10x.h)(0x53736A2F)
+I (Firmware\core_cm3.h)(0x4CBC9B70)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FE34EE)
+I (Firmware\system_stm32f10x.h)(0x4CBC9B70)
+I (Firmware\inc\stm32f10x_gpio.h)(0x4CBC9B74)
+I (Firmware\inc\stm32f10x_spi.h)(0x4CBC9B74)
+I (Firmware\inc\stm32f10x_rcc.h)(0x4CBC9B74)
+I (.\Firmware/fonts.h)(0x4CBCBE06)
+I (.\Firmware/fonts.c)(0x4CBCBE06)
+I (.\images.xbm)(0x53739372)
+F (.\Firmware\src\stm32f10x_spi.c)(0x53736A76)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O1 --apcs=interwork -I. -IFirmware -IFirmware\inc -IFreeRTOS\inc-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F10x-o .\bin\stm32f10x_spi.o --omf_browse .\bin\stm32f10x_spi.crf --depend .\bin\stm32f10x_spi.d)
+I (Firmware\inc\stm32f10x_spi.h)(0x4CBC9B74)
+I (Firmware\stm32f10x.h)(0x53736A2F)
+I (Firmware\core_cm3.h)(0x4CBC9B70)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FE34EE)
+I (Firmware\system_stm32f10x.h)(0x4CBC9B70)
+I (Firmware\inc\stm32f10x_rcc.h)(0x4CBC9B74)
+I (Firmware\stm32f10x_conf.h)(0x4CBCBDEC)
+I (Firmware\inc\stm32f10x_exti.h)(0x4CBC9B74)
+I (Firmware\inc\stm32f10x_flash.h)(0x4CBC9B74)
+I (Firmware\inc\stm32f10x_gpio.h)(0x4CBC9B74)
+I (Firmware\inc\stm32f10x_usart.h)(0x4CBC9B74)
+I (Firmware\inc\stm32f10x_wwdg.h)(0x4CBC9B74)
+I (Firmware\inc\misc.h)(0x4CBC9B74)
+F (.\Firmware\setup.c)(0x534EBC20)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O1 --apcs=interwork -I. -IFirmware -IFirmware\inc -IFreeRTOS\inc-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F10x-o .\bin\setup.o --omf_browse .\bin\setup.crf --depend .\bin\setup.d)
+I (Firmware\setup.h)(0x4DC0322E)
+I (Firmware\stm32f10x.h)(0x53736A2F)
+I (Firmware\core_cm3.h)(0x4CBC9B70)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FE34EE)
+I (Firmware\system_stm32f10x.h)(0x4CBC9B70)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x52FE34EE)
+I (Firmware\system_stm32f10x_cl.h)(0x4C811244)
+I (.\UART.h)(0x53778036)
+I (FreeRTOS\inc\FreeRTOS.h)(0x4D35FC6A)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x52FE34EE)
+I (FreeRTOS\inc\projdefs.h)(0x4D36014A)
+I (.\FreeRTOSConfig.h)(0x4DAC692A)
+I (FreeRTOS\inc\portable.h)(0x4D360196)
+I (FreeRTOS\inc\portmacro.h)(0x4D3601AC)
+I (FreeRTOS\inc\mpu_wrappers.h)(0x4D3601D4)
+I (FreeRTOS\inc\queue.h)(0x4D3601EA)
+I (FreeRTOS\inc\semphr.h)(0x4D360266)
+I (Firmware\inc\stm32f10x_gpio.h)(0x4CBC9B74)
+I (Firmware\inc\stm32f10x_usart.h)(0x4CBC9B74)
+I (Firmware\inc\stm32f10x_rcc.h)(0x4CBC9B74)
+I (Firmware\inc\misc.h)(0x4CBC9B74)
+F (.\main.c)(0x5377ACDD)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O1 --apcs=interwork -I. -IFirmware -IFirmware\inc -IFreeRTOS\inc-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F10x-o .\bin\main.o --omf_browse .\bin\main.crf --depend .\bin\main.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x52FE34EE)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x52FE34EE)
+I (FreeRTOS\inc\FreeRTOS.h)(0x4D35FC6A)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x52FE34EE)
+I (FreeRTOS\inc\projdefs.h)(0x4D36014A)
+I (.\FreeRTOSConfig.h)(0x4DAC692A)
+I (FreeRTOS\inc\portable.h)(0x4D360196)
+I (FreeRTOS\inc\portmacro.h)(0x4D3601AC)
+I (FreeRTOS\inc\mpu_wrappers.h)(0x4D3601D4)
+I (FreeRTOS\inc\task.h)(0x4D3601E6)
+I (FreeRTOS\inc\list.h)(0x4D3601EE)
+I (Firmware\setup.h)(0x4DC0322E)
+I (Firmware\stm32f10x.h)(0x53736A2F)
+I (Firmware\core_cm3.h)(0x4CBC9B70)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FE34EE)
+I (Firmware\system_stm32f10x.h)(0x4CBC9B70)
+I (Firmware\stm32f10x_conf.h)(0x4CBCBDEC)
+I (Firmware\inc\stm32f10x_exti.h)(0x4CBC9B74)
+I (Firmware\inc\stm32f10x_flash.h)(0x4CBC9B74)
+I (Firmware\inc\stm32f10x_gpio.h)(0x4CBC9B74)
+I (Firmware\inc\stm32f10x_rcc.h)(0x4CBC9B74)
+I (Firmware\inc\stm32f10x_usart.h)(0x4CBC9B74)
+I (Firmware\inc\stm32f10x_wwdg.h)(0x4CBC9B74)
+I (Firmware\inc\misc.h)(0x4CBC9B74)
+I (Firmware\stm3210c_eval_ioe.h)(0x4A407684)
+I (FreeRTOS\inc\semphr.h)(0x4D360266)
+I (FreeRTOS\inc\queue.h)(0x4D3601EA)
+I (global.h)(0x5377BC0D)
+I (UART.h)(0x53778036)
+I (LCD.h)(0x5377ACD1)
+I (admin_delete.c)(0x536F7130)
+I (CU.h)(0x53753B13)
+F (.\UART.c)(0x5377CBB0)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O1 --apcs=interwork -I. -IFirmware -IFirmware\inc -IFreeRTOS\inc-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F10x-o .\bin\uart.o --omf_browse .\bin\uart.crf --depend .\bin\uart.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x52FE34EE)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x52FE34EE)
+I (FreeRTOS\inc\FreeRTOS.h)(0x4D35FC6A)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x52FE34EE)
+I (FreeRTOS\inc\projdefs.h)(0x4D36014A)
+I (.\FreeRTOSConfig.h)(0x4DAC692A)
+I (FreeRTOS\inc\portable.h)(0x4D360196)
+I (FreeRTOS\inc\portmacro.h)(0x4D3601AC)
+I (FreeRTOS\inc\mpu_wrappers.h)(0x4D3601D4)
+I (FreeRTOS\inc\task.h)(0x4D3601E6)
+I (FreeRTOS\inc\list.h)(0x4D3601EE)
+I (Firmware\inc\stm32f10x_gpio.h)(0x4CBC9B74)
+I (Firmware\stm32f10x.h)(0x53736A2F)
+I (Firmware\core_cm3.h)(0x4CBC9B70)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FE34EE)
+I (Firmware\system_stm32f10x.h)(0x4CBC9B70)
+I (Firmware\inc\stm32f10x_usart.h)(0x4CBC9B74)
+I (Firmware\inc\stm32f10x_rcc.h)(0x4CBC9B74)
+I (global.h)(0x5377BC0D)
+I (FreeRTOS\inc\queue.h)(0x4D3601EA)
+I (UART.h)(0x53778036)
+I (FreeRTOS\inc\semphr.h)(0x4D360266)
+I (Firmware\inc\misc.h)(0x4CBC9B74)
+F (.\LCD.c)(0x5377CDF5)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O1 --apcs=interwork -I. -IFirmware -IFirmware\inc -IFreeRTOS\inc-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F10x-o .\bin\lcd.o --omf_browse .\bin\lcd.crf --depend .\bin\lcd.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x52FE34EE)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x52FE34EE)
+I (FreeRTOS\inc\FreeRTOS.h)(0x4D35FC6A)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x52FE34EE)
+I (FreeRTOS\inc\projdefs.h)(0x4D36014A)
+I (.\FreeRTOSConfig.h)(0x4DAC692A)
+I (FreeRTOS\inc\portable.h)(0x4D360196)
+I (FreeRTOS\inc\portmacro.h)(0x4D3601AC)
+I (FreeRTOS\inc\mpu_wrappers.h)(0x4D3601D4)
+I (FreeRTOS\inc\task.h)(0x4D3601E6)
+I (FreeRTOS\inc\list.h)(0x4D3601EE)
+I (Firmware\stm32f10x.h)(0x53736A2F)
+I (Firmware\core_cm3.h)(0x4CBC9B70)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FE34EE)
+I (Firmware\system_stm32f10x.h)(0x4CBC9B70)
+I (Firmware\stm3210c_eval_lcd.h)(0x53738D9B)
+I (Firmware\inc\stm32f10x_gpio.h)(0x4CBC9B74)
+I (Firmware\inc\stm32f10x_spi.h)(0x4CBC9B74)
+I (Firmware\inc\stm32f10x_rcc.h)(0x4CBC9B74)
+I (.\Firmware/fonts.h)(0x4CBCBE06)
+I (Firmware\stm3210c_eval_ioe.h)(0x4A407684)
+I (Firmware\inc\stm32f10x_usart.h)(0x4CBC9B74)
+I (LCD.h)(0x5377ACD1)
+I (FreeRTOS\inc\queue.h)(0x4D3601EA)
+I (FreeRTOS\inc\semphr.h)(0x4D360266)
+I (admin_delete.c)(0x536F7130)
+I (global.h)(0x5377BC0D)
+I (Screens-Functions.c)(0x53750C49)
+F (.\CU.c)(0x5377CDF5)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O1 --apcs=interwork -I. -IFirmware -IFirmware\inc -IFreeRTOS\inc-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F10x-o .\bin\cu.o --omf_browse .\bin\cu.crf --depend .\bin\cu.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x52FE34EE)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x52FE34EE)
+I (FreeRTOS\inc\FreeRTOS.h)(0x4D35FC6A)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x52FE34EE)
+I (FreeRTOS\inc\projdefs.h)(0x4D36014A)
+I (.\FreeRTOSConfig.h)(0x4DAC692A)
+I (FreeRTOS\inc\portable.h)(0x4D360196)
+I (FreeRTOS\inc\portmacro.h)(0x4D3601AC)
+I (FreeRTOS\inc\mpu_wrappers.h)(0x4D3601D4)
+I (FreeRTOS\inc\task.h)(0x4D3601E6)
+I (FreeRTOS\inc\list.h)(0x4D3601EE)
+I (Firmware\inc\stm32f10x_usart.h)(0x4CBC9B74)
+I (Firmware\stm32f10x.h)(0x53736A2F)
+I (Firmware\core_cm3.h)(0x4CBC9B70)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FE34EE)
+I (Firmware\system_stm32f10x.h)(0x4CBC9B70)
+I (global.h)(0x5377BC0D)
+I (FreeRTOS\inc\queue.h)(0x4D3601EA)
+I (CU.h)(0x53753B13)
+F (.\FreeRTOS\src\heap_2.c)(0x4D35FA40)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O1 --apcs=interwork -I. -IFirmware -IFirmware\inc -IFreeRTOS\inc-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F10x-o .\bin\heap_2.o --omf_browse .\bin\heap_2.crf --depend .\bin\heap_2.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x534BE4E7)
+I (FreeRTOS\inc\FreeRTOS.h)(0x4D35FC6A)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x52FE34EE)
+I (FreeRTOS\inc\projdefs.h)(0x4D36014A)
+I (.\FreeRTOSConfig.h)(0x4DAC692A)
+I (FreeRTOS\inc\portable.h)(0x4D360196)
+I (FreeRTOS\inc\portmacro.h)(0x4D3601AC)
+I (FreeRTOS\inc\mpu_wrappers.h)(0x4D3601D4)
+I (FreeRTOS\inc\task.h)(0x4D3601E6)
+I (FreeRTOS\inc\list.h)(0x4D3601EE)
+F (.\FreeRTOS\src\list.c)(0x4D35FA02)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O1 --apcs=interwork -I. -IFirmware -IFirmware\inc -IFreeRTOS\inc-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F10x-o .\bin\list.o --omf_browse .\bin\list.crf --depend .\bin\list.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x534BE4E7)
+I (FreeRTOS\inc\FreeRTOS.h)(0x4D35FC6A)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x52FE34EE)
+I (FreeRTOS\inc\projdefs.h)(0x4D36014A)
+I (.\FreeRTOSConfig.h)(0x4DAC692A)
+I (FreeRTOS\inc\portable.h)(0x4D360196)
+I (FreeRTOS\inc\portmacro.h)(0x4D3601AC)
+I (FreeRTOS\inc\mpu_wrappers.h)(0x4D3601D4)
+I (FreeRTOS\inc\list.h)(0x4D3601EE)
+F (.\FreeRTOS\src\port.c)(0x4D35FA2A)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O1 --apcs=interwork -I. -IFirmware -IFirmware\inc -IFreeRTOS\inc-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F10x-o .\bin\port.o --omf_browse .\bin\port.crf --depend .\bin\port.d)
+I (FreeRTOS\inc\FreeRTOS.h)(0x4D35FC6A)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x52FE34EE)
+I (FreeRTOS\inc\projdefs.h)(0x4D36014A)
+I (.\FreeRTOSConfig.h)(0x4DAC692A)
+I (FreeRTOS\inc\portable.h)(0x4D360196)
+I (FreeRTOS\inc\portmacro.h)(0x4D3601AC)
+I (FreeRTOS\inc\mpu_wrappers.h)(0x4D3601D4)
+I (FreeRTOS\inc\task.h)(0x4D3601E6)
+I (FreeRTOS\inc\list.h)(0x4D3601EE)
+F (.\FreeRTOS\src\queue.c)(0x4D35FA06)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O1 --apcs=interwork -I. -IFirmware -IFirmware\inc -IFreeRTOS\inc-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F10x-o .\bin\queue.o --omf_browse .\bin\queue.crf --depend .\bin\queue.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x534BE4E7)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x52FE34EE)
+I (FreeRTOS\inc\FreeRTOS.h)(0x4D35FC6A)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x52FE34EE)
+I (FreeRTOS\inc\projdefs.h)(0x4D36014A)
+I (.\FreeRTOSConfig.h)(0x4DAC692A)
+I (FreeRTOS\inc\portable.h)(0x4D360196)
+I (FreeRTOS\inc\portmacro.h)(0x4D3601AC)
+I (FreeRTOS\inc\mpu_wrappers.h)(0x4D3601D4)
+I (FreeRTOS\inc\task.h)(0x4D3601E6)
+I (FreeRTOS\inc\list.h)(0x4D3601EE)
+I (FreeRTOS\inc\croutine.h)(0x4D36025C)
+F (.\FreeRTOS\src\tasks.c)(0x4D35F9FC)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O1 --apcs=interwork -I. -IFirmware -IFirmware\inc -IFreeRTOS\inc-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F10x-o .\bin\tasks.o --omf_browse .\bin\tasks.crf --depend .\bin\tasks.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x52FE34EE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x534BE4E7)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x52FE34EE)
+I (FreeRTOS\inc\FreeRTOS.h)(0x4D35FC6A)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x52FE34EE)
+I (FreeRTOS\inc\projdefs.h)(0x4D36014A)
+I (.\FreeRTOSConfig.h)(0x4DAC692A)
+I (FreeRTOS\inc\portable.h)(0x4D360196)
+I (FreeRTOS\inc\portmacro.h)(0x4D3601AC)
+I (FreeRTOS\inc\mpu_wrappers.h)(0x4D3601D4)
+I (FreeRTOS\inc\task.h)(0x4D3601E6)
+I (FreeRTOS\inc\list.h)(0x4D3601EE)
+I (FreeRTOS\inc\StackMacros.h)(0x4D360260)

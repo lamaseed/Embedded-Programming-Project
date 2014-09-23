@@ -1,0 +1,10 @@
+.\bin\port.o: FreeRTOS\src\port.c
+.\bin\port.o: FreeRTOS\inc\FreeRTOS.h
+.\bin\port.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stddef.h
+.\bin\port.o: FreeRTOS\inc\projdefs.h
+.\bin\port.o: .\FreeRTOSConfig.h
+.\bin\port.o: FreeRTOS\inc\portable.h
+.\bin\port.o: FreeRTOS\inc\portmacro.h
+.\bin\port.o: FreeRTOS\inc\mpu_wrappers.h
+.\bin\port.o: FreeRTOS\inc\task.h
+.\bin\port.o: FreeRTOS\inc\list.h

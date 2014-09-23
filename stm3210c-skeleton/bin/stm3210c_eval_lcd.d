@@ -1,0 +1,12 @@
+.\bin\stm3210c_eval_lcd.o: Firmware\stm3210c_eval_lcd.c
+.\bin\stm3210c_eval_lcd.o: Firmware\stm3210c_eval_lcd.h
+.\bin\stm3210c_eval_lcd.o: Firmware\stm32f10x.h
+.\bin\stm3210c_eval_lcd.o: Firmware\core_cm3.h
+.\bin\stm3210c_eval_lcd.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdint.h
+.\bin\stm3210c_eval_lcd.o: Firmware\system_stm32f10x.h
+.\bin\stm3210c_eval_lcd.o: Firmware\inc\stm32f10x_gpio.h
+.\bin\stm3210c_eval_lcd.o: Firmware\inc\stm32f10x_spi.h
+.\bin\stm3210c_eval_lcd.o: Firmware\inc\stm32f10x_rcc.h
+.\bin\stm3210c_eval_lcd.o: .\Firmware/fonts.h
+.\bin\stm3210c_eval_lcd.o: .\Firmware/fonts.c
+.\bin\stm3210c_eval_lcd.o: .\images.xbm

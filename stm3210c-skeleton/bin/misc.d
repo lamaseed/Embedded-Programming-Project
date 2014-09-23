@@ -1,0 +1,13 @@
+.\bin\misc.o: Firmware\src\misc.c
+.\bin\misc.o: Firmware\inc\misc.h
+.\bin\misc.o: Firmware\stm32f10x.h
+.\bin\misc.o: Firmware\core_cm3.h
+.\bin\misc.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdint.h
+.\bin\misc.o: Firmware\system_stm32f10x.h
+.\bin\misc.o: Firmware\stm32f10x_conf.h
+.\bin\misc.o: Firmware\inc\stm32f10x_exti.h
+.\bin\misc.o: Firmware\inc\stm32f10x_flash.h
+.\bin\misc.o: Firmware\inc\stm32f10x_gpio.h
+.\bin\misc.o: Firmware\inc\stm32f10x_rcc.h
+.\bin\misc.o: Firmware\inc\stm32f10x_usart.h
+.\bin\misc.o: Firmware\inc\stm32f10x_wwdg.h

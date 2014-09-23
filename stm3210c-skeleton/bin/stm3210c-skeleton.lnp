@@ -1,0 +1,28 @@
+--cpu Cortex-M3
+".\bin\stm32f10x.o"
+".\bin\system_stm32f10x_cl.o"
+".\bin\stm32f10x_gpio.o"
+".\bin\stm32f10x_rcc.o"
+".\bin\stm3210c_eval_ioe.o"
+".\bin\stm32f10x_i2c.o"
+".\bin\stm32f10x_exti.o"
+".\bin\misc.o"
+".\bin\stm32f10x_lib.o"
+".\bin\stm32f10x_usart.o"
+".\bin\stm32f10x_flash.o"
+".\bin\stm3210c_eval_lcd.o"
+".\bin\stm32f10x_spi.o"
+".\bin\setup.o"
+".\bin\main.o"
+".\bin\uart.o"
+".\bin\lcd.o"
+".\bin\cu.o"
+".\bin\heap_2.o"
+".\bin\list.o"
+".\bin\port.o"
+".\bin\queue.o"
+".\bin\tasks.o"
+--library_type=microlib --strict --scatter ".\bin\stm3210c-skeleton.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\stm3210c-skeleton.map" -o .\bin\stm3210c-skeleton.axf
