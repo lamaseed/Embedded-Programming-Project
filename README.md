@@ -5,7 +5,7 @@ Project about measuring Temperature and humidity using STM3210C board connected 
 
 The code is everything that the project needed to run.
 
-My contribution in this the implementation of the user interface (Screen-funtions.c, LCD.c, MenuScreens.c).
+My contribution in this is the implementation of the user interface (Screen-funtions.c, LCD.c, MenuScreens.c).
 
 Also I have done some conrtibutions to the UART.c about the communication. Mostly debbuging the code and reviewing it.
 
