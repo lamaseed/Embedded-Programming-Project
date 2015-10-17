@@ -5,13 +5,13 @@ Project about measuring Temperature and humidity using STM3210C board connected 
 
 The code is everything that the project needed to run.
 
-**Iosif:**
+**[Iosif:](https://www.github.com/iosifaras)**
 
 My contribution in this is the implementation of the user interface (Screen-functions.c, LCD.c, MenuScreens.c).
 
 Also I have done some contributions to the UART.c about the communication. Mostly debugging the code and reviewing it.
 
-**Panagiotis:**
+**[Panagiotis:](https://github.com/lamaseed)**
 
 My contribution is the hardware setup, the UART communication and the implementation of the control unit (main.c, UART.c,  CU.c).
 
